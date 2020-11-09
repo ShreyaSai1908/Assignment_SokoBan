@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>
+      Sokoban Game
+   </title>  
+   <link href="sokoban.css" rel="stylesheet" />
+</head>
+  <body>
+
+     <!--Game Intro--> 
+     <div>
+            <p class="txt">  
+                Goal : You (yellow tile) should move all pink tiles into the dark green tiles 
+            </p>                     
+     </div>
+     <!--Game Intro-->
+
+     <!--Start/Reset button--> 
+     <div>
+        <table>
+            <tr>
+              <td>  
+               <button id="btnStart" type="button" onclick="drawMap()" class="btnStart">Start</button>
+             </td>  
+             <td class="midTabWidth"> </td>           
+             <td>
+                <p id="gamePoint" class="txtGamePoint"></p>
+             </td>  
+           </tr>            
+         </table>
+     </div>
+     <!--Start/Reset button--> 
+
+
+     <!--Game Board-->
+     <div>
+       <table id="container" class="center">
+
+        </table>	     
+     </div>  
+     <!--Game Board-->   
+
+     <audio id="audioGoal">
+      <source src="Ding-sound-effect.mp3" type="audio/mpeg">
+     </audio>
+
+     <audio id="audioWin">
+      <source src="game-win.mp3" type="audio/mpeg">   
+     </audio>
+     
+      <script src="sokoban.js"></script> 
+  </body>
+</html>

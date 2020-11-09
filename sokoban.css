@@ -1,0 +1,110 @@
+.midTabWidth{
+   width: 100%;
+}
+
+.txt{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.txtGamePoint{
+  background-color: green; 
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  font-weight: bold;
+}
+
+.btnStart{
+  background-color: green; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  font-weight: bold;
+}
+
+.btnReset{
+    background-color: yellow; 
+    border: none;
+    color: darkgreen;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.center{
+    margin-left: auto;
+    margin-right: auto;		
+}
+
+.boundaryWall{
+	height: 20px;
+    width: 20px;
+	background-color: red;	
+    color:black;
+    border-style: solid;
+    float: left;	
+}
+
+.wall {
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    color:black;
+    border-style: solid;
+    float: left;
+  }
+
+  .mvwall {
+    height: 20px;
+    width: 20px;
+    background-color: lightcoral;
+    color:black;
+    border-style: solid;
+    float: left;
+  }
+
+  .space {
+    height: 20px;
+    width: 20px;  
+	/*background-color: lightgrey
+	color:black;
+    border-style: solid;*/
+	float: left;
+  }
+
+  .goal {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    color:white;
+    border-style: solid;
+    float: left;
+  }
+
+  .player {
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    color:black;
+    border-style: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
+  }
+  
+  
+ 
